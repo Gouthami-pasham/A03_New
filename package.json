@@ -3,11 +3,15 @@
     "version": "0.0.1",
     "description": "resume app",
     "main": "app.js",
+    "private": true,
     "dependencies": {
         "express": "latest",
         "morgan": "latest",
         "body-parser": "latest",
         "ejs": "latest"
+    },
+    "scripts": {
+        "start": "node app.js"
     },
     "author": "Gouthami pasham",
     "homepage": "https://bitbucket.org/professorcase/a03",
